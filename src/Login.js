@@ -36,11 +36,7 @@ export default function SignIn() {
     event.preventDefault();
   };
 
-  // const handleClickShowPassword = () => setShowpassword((show) => !show);
 
-  // const handleMouseDownPassword = (event: React.MouseEvent<HTMLButtonElement>) => {
-  //   event.preventDefault();
-  // };
 
   const handleSubmit = (event) => {
     event.preventDefault();

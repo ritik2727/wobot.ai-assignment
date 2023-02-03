@@ -1,11 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Login from "./Login";
-import { ThemeProvider } from "@mui/material/styles";
-import { StyledEngineProvider } from "@mui/styled-engine";
-import Theme from "./Theme";
 import logou from "./images/logomain.png";
-import backg from "./images/Background.png";
+
 function App() {
   return (
     <div
@@ -28,7 +24,7 @@ function App() {
           width: 160,
           height: 35.42,
           position: " absolute",
-          zIndex:20,
+          zIndex: 20,
           top: 60,
           left: 100,
         }}
